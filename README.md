@@ -1,4 +1,4 @@
-# Badges
+# Rating Badges
 
 Generates badges for users of progrmming sites with ratings and their corresponding colours.
 
