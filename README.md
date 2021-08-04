@@ -2,7 +2,7 @@
 
 Generates badges for users of progrmming sites with ratings and their corresponding colours.
 
-Badges available at https://rating-badges.herokuapp.com/site/username where <site> is one of Atcoder, Codeforces, or DMOJ.
+Badges available at https://rating-badges.herokuapp.com/site/username where `site` is one of `Atcoder`, `Codeforces`, or `DMOJ`.
 
 Badges get cached and kept for a certain amount of time (currently 1 hour) to reduce the number of API queries. This is especially useful for Codeforces since the site goes down a lot.
   
