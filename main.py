@@ -16,6 +16,14 @@ def go(site, user):
 	except:
 		return 'Not Found', 400
 
+@app.route('/')
+def demo():
+	base_url = flask.request.base_url
+	examples = [(f'{base_url}Atcoder/crackersamdjam'),
+				(f'{base_url}Codeforces/crackersamdjam'),
+				(f'{base_url}DMOJ/crackersamdjam')]
+	return flask.render_template('index.html', examples=examples)
+
 if __name__ == '__main__':
 	app.run(debug=False)
 

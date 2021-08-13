@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>Rating Badges Demo Page</title>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td>URL</td>
+				<td>Badge</td>
+			</tr>
+			{% for i in examples %}
+			<tr>
+				<td>{{ i }}</td>
+				<td><img src={{ i }}></td>
+			</tr>
+			{% endfor %}
+		</ul>
+	</body>
+</html>
