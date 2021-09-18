@@ -4,11 +4,14 @@ Generates badges for users of progrmming sites with ratings and their correspond
 
 Badges available at https://crackersamdjam.ca/badges/site/username where `site` is one of `Atcoder`, `Codeforces`, or `DMOJ`.
 
+Note: GitHub uses Camo to render and cache these badges, so they may not be up to date.
+
 | Badge | URL |
 |-|-|
 | ![badge](https://crackersamdjam.ca/badges/Atcoder/crackersamdjam) | https://crackersamdjam.ca/badges/Atcoder/crackersamdjam |
 | ![badge](https://crackersamdjam.ca/badges/Codeforces/crackersamdjam) | https://crackersamdjam.ca/badges/Codeforces/crackersamdjam |
 | ![badge](https://crackersamdjam.ca/badges/DMOJ/crackersamdjam) | https://crackersamdjam.ca/badges/DMOJ/crackersamdjam |
+
 
 Badges get cached and kept for a certain amount of time (currently 1 hour) to reduce the number of API queries. This is especially useful for Codeforces since the site goes down a lot.
 
