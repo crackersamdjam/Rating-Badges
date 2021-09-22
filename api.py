@@ -42,13 +42,13 @@ def DMOJ(user):
 	
 	if rating < 1000:
 		rating_color = 'grey'
-	elif rating < 1200:
+	elif rating < 1300:
 		rating_color = 'green'
-	elif rating < 1500:
+	elif rating < 1600:
 		rating_color = 'blue'
-	elif rating < 1800:
+	elif rating < 1900:
 		rating_color = 'purple'
-	elif rating < 2200:
+	elif rating < 2400:
 		rating_color = 'yellow'
 	else:
 		rating_color = 'red'
